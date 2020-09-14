@@ -1,0 +1,98 @@
+1. start
+
+	input price
+	input salesTax
+
+	set total = price * salesTax
+
+	output total
+
+   stop
+
+
+2. start
+
+	input total
+
+	set payments = total / 12
+
+	output payments
+
+   stop
+
+
+3. start
+
+	input persons
+
+	set slices = 8 / persons
+
+	output slices
+
+   stop
+
+
+4. start
+
+	input miles
+	input mpg
+
+	set gallons = miles / mpg
+
+	output miles
+	output mpg
+	output gallons
+
+   stop
+
+
+5. start
+
+	input gallons
+	input ppg
+
+	set gasCost = gallons * ppg
+	
+	output gasCost
+
+   stop
+
+
+6. start
+
+	input miles
+	input mph
+
+	set totalHours = miles / mph
+
+	output miles
+	output mph
+	output totalHours
+
+   stop
+
+
+7. start
+
+	input date
+	input mileage
+
+	set nextDate = date + 90
+	set nextMileage = mileage + 3000 
+
+	output nextMileage
+	output nextDate
+
+   stop
+
+
+8. start
+
+	input money
+	input spent
+
+	set profit = money - spent
+
+	output profit
+
+   stop
